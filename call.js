@@ -4,19 +4,19 @@
 	}
 
 	var pessoa = {};
-	pessoa.nome = prompt("quem é você?");
-	pessoa.idade = prompt("Sua idade?");
+	//pessoa.nome = prompt("quem é você?");
+	//pessoa.idade = prompt("Sua idade?");
 
-	whoIs.call(pessoa);
+	//whoIs.call(pessoa);
 
-	function countFor(arguments){
+	function countFor(){
 	    var args= Array.prototype.slice.call(arguments);
 	    args.forEach(function(a){
 	    	console.log("a =>", a);
 	    });
 	}
 
-	countFor('leonardo 30' );
+	//countFor("leonardo", "30");
 
 
 })(window, document);
